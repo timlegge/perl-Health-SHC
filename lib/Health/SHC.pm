@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Health::SHC;
 
-# ABSTRACT: Extract and verify Smart Haelth Card information
+# ABSTRACT: Extract and verify Smart Health Card information
 
 our $VERSION = '0.002';
 

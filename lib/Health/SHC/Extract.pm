@@ -19,7 +19,7 @@ Health::SHC::Extract - Extract Smart Health Card QR codes from PDFs or png files
 
     my $shc = Health::SHC::Extract->new();
 
-    my @qrcodes = $shc->extract_qr_from_pdf('t/sample-qr-code.png');
+    my @qrcodes = $shc->extract_qr_from_pdf('t/sample-qr-code.pdf');
 
     my @qrcodes = $shc->extract_qr_from_png('t/sample-qr-code.png');
 
