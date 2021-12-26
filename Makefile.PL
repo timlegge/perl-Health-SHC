@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     "JSON::Parse" => 0,
     "PostScript::Convert" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
