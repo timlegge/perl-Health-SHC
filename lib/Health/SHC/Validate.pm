@@ -5,7 +5,7 @@ use warnings;
 
 package Health::SHC::Validate;
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 #use IO::Uncompress::RawInflate qw/ rawinflate /;
 #use MIME::Base64 qw/ decode_base64url /;

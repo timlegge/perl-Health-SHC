@@ -4,7 +4,7 @@ package Health::SHC;
 
 # ABSTRACT: Extract and verify Smart Health Card information
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 =head1 NAME
 

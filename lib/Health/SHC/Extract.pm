@@ -7,7 +7,7 @@ use PostScript::Convert;
 
 package Health::SHC::Extract;
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 =head1 NAME
 
