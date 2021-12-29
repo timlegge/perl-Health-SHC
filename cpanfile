@@ -5,7 +5,7 @@ requires "Crypt::JWT" => "0";
 requires "File::ShareDir" => "0";
 requires "File::Temp" => "0";
 requires "Image::Magick" => "0";
-requires "JSON::Parse" => "0";
+requires "JSON::Parse" => "0.59";
 requires "PostScript::Convert" => "0";
 requires "perl" => "5.008";
 

@@ -12,7 +12,7 @@ install_share dist => "share";
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Extract and verify Smart Haelth Card information",
+  "ABSTRACT" => "Extract and verify Smart Health Card information",
   "AUTHOR" => "Timothy Legge <timlegge\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
@@ -28,10 +28,10 @@ my %WriteMakefileArgs = (
     "File::ShareDir" => 0,
     "File::Temp" => 0,
     "Image::Magick" => 0,
-    "JSON::Parse" => 0,
+    "JSON::Parse" => "0.59",
     "PostScript::Convert" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -44,7 +44,7 @@ my %FallbackPrereqs = (
   "File::ShareDir" => 0,
   "File::Temp" => 0,
   "Image::Magick" => 0,
-  "JSON::Parse" => 0,
+  "JSON::Parse" => "0.59",
   "PostScript::Convert" => 0
 );
 
