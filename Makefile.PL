@@ -31,6 +31,9 @@ my %WriteMakefileArgs = (
     "JSON::Parse" => "0.59",
     "PostScript::Convert" => 0
   },
+  "TEST_REQUIRES" => {
+    "Test::Exception" => 0
+  },
   "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
@@ -45,7 +48,8 @@ my %FallbackPrereqs = (
   "File::Temp" => 0,
   "Image::Magick" => 0,
   "JSON::Parse" => "0.59",
-  "PostScript::Convert" => 0
+  "PostScript::Convert" => 0,
+  "Test::Exception" => 0
 );
 
 

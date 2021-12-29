@@ -36,6 +36,16 @@ DESCRIPTION
     signature checked. The module provide several methods to retrieve the
     data in a more usable format.
 
+COPYRIGHT
+    The following copyright notice applies to all the files provided in this
+    distribution, including binary files, unless explicitly noted otherwise.
+
+    Copyright 2021 Timothy Legge <timlegge@cpan.org>
+
+LICENCE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
   METHODS
    new(...)
     Constructor; see OPTIONS above.

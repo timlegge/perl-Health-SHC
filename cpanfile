@@ -9,6 +9,10 @@ requires "JSON::Parse" => "0.59";
 requires "PostScript::Convert" => "0";
 requires "perl" => "5.008";
 
+on 'test' => sub {
+  requires "Test::Exception" => "0";
+};
+
 on 'configure' => sub {
   requires "ExtUtils::MakeMaker" => "0";
   requires "File::ShareDir::Install" => "0.06";

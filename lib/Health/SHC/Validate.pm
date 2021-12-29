@@ -45,6 +45,21 @@ Smart Health Card data.
 
 =cut
 
+=head1 COPYRIGHT
+
+The following copyright notice applies to all the files provided in
+this distribution, including binary files, unless explicitly noted
+otherwise.
+
+Copyright 2021 Timothy Legge <timlegge@cpan.org>
+
+=head1 LICENCE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
+
 =head2 METHODS
 
 =head3 B<new(...)>
