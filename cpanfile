@@ -20,5 +20,5 @@ on 'configure' => sub {
 
 on 'develop' => sub {
   requires "Test::Perl::Critic" => "0";
-  requires "Test::Spelling" => "0.12";
+  requires "Test::Spelling" => "0.17";
 };
